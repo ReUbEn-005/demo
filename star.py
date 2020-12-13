@@ -4,9 +4,11 @@ target = 9
 #loop started
 for i in nums:
 	if (target-i) in nums:
-		# nums.index(target-i,(nums.index(i)+1),(len(nums)))
+		#nums.index(target-i,(nums.index(i)+1),(len(nums)))
 		j = str(nums.index(target-i))
 		print("["+str(nums.index(i))+","+j+"]")
+
+# end of the program
 		
 	
 	
